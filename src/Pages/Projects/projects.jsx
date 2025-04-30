@@ -1,9 +1,21 @@
 import React from 'react';
+import Footer from '../../Component/footer';
+import Navbar from '../../Component/Navbar';
+import RotateCard from '../../Component/rotatecard';
 
-const Project = () => {
+
+const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className="bg-white text-gray-900">
+      <Navbar/>
+      <div>
+      <RotateCard title="Projects" />
+    </div>
+
+      
+      <div><Footer/></div>
+    </div>
   );
 };
 
-export default Project;
+export default Projects;
