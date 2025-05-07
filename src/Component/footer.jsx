@@ -9,16 +9,16 @@ const Footer = () => {
       </p>
       <div className="flex justify-center space-x-4">
         <a href="#" className="bg-blue-500 text-white p-2 rounded hover:bg-blue-800">
-          Facebook Logo
+          Fa
         </a>
         <a href="#" className="bg-black text-white p-2 rounded hover:bg-gray-800">
-        Twitter Logo
+        Twi
         </a>
         <a href="#" className="bg-red-500 text-white p-2 rounded hover:bg-red-600">
-          Youtube Logo
+          You
         </a>
         <a href="#" className="bg-pink-700 text-white p-2 rounded hover:bg-pink-800">
-          Instagram Logo
+          In
         </a>
       </div>
     </footer>

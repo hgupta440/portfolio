@@ -5,14 +5,17 @@ import Footer from '../../Component/footer';
 
 const About = () => {
   return (
-    <>
+    <div>
       <Navbar/>
+
       <div>
-      <RotateCard title="About" />
-    </div>
+        <RotateCard title="About" />
+      </div>
+
         <div>About</div>
+        
         <Footer/>
-    </>
+    </div>
   );
 };
 
