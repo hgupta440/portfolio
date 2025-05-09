@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "../../Component/footer";
-import Navbar from "../../Component/Navbar";
 import RotateCard from "../../Component/rotatecard";
 import { FaWordpress } from "react-icons/fa";
 import { SiMagento, SiJoomla } from "react-icons/si";
@@ -26,7 +24,6 @@ const services = [
 const Service = () => {
   return (
     <>
-      <Navbar />
       <div>
         <RotateCard title="Service" />
       </div>
@@ -78,7 +75,6 @@ const Service = () => {
         </div>
       </section>
 
-      <Footer />
     </>
   );
 };

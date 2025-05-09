@@ -1,7 +1,5 @@
 import React from 'react';
-import Navbar from '../../Component/Navbar';
 import Rotatecard from '../../Component/rotatecard';
-import Footer from '../../Component/footer';
 import ContactCard from '../../Component/conatctcard';
 
 const contactInfo = [
@@ -28,7 +26,6 @@ const contactInfo = [
 const ContactUs = () => {
   return (
     <div>
-      <Navbar />
       <Rotatecard title="Contact Us" />
 
       <section className="max-w-7xl mx-auto px-4 py-16">
@@ -54,7 +51,6 @@ const ContactUs = () => {
         </form>
       </section>
 
-      <Footer />
     </div>
   );
 };

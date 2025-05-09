@@ -3,14 +3,13 @@ import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
-
   return (
     <header className="max-h-fit sticky top-0 left-0 right-0 z-50 bg-[#ffe0b2]">
       <div className="flex justify-between items-center px-6 py-6 max-w-7xl mx-auto">
         
-        <Link to="/" className="text-3xl font-bold text-black">
-          Himanshu Mishra
-        </Link>
+        <div to="/" className="text-3xl font-bold text-black">
+          Himanshu
+        </div>
         
         <nav className="hidden md:flex space-x-8 text-sm font-medium ">
           <Link to="/" className="hover:underline">Home</Link>
