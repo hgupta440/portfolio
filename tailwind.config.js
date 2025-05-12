@@ -11,6 +11,10 @@ export default {
           '0%': {transform: 'translateX(-100%)', opacity: '0'},
           '100%': {transform: 'translateX(0)', opacity: '1'},
         },
+        slideInRight: {
+          '0%': {transform: 'translateX(100%)', opacity: '0'},
+          '100%': {transform: 'translateY(0)', opacity: '1'}, 
+        },
         slideInUp: {
           '0%': {transform: 'translateY(100%)', opacity: '0'},
           '100%': {transform: 'translateY(0)', opacity: '1'}, 
@@ -18,6 +22,7 @@ export default {
       },
       animation: {
         slideInLeft: 'slideInLeft 1s ease-out forwards',
+        slideInRight: 'slideInRight 1s ease-out forwards',
         slideInUp: 'slideInUp 1s ease-out forwards',
         slideInLeftDelay300: 'slideInLeft 1s ease-out forwards 0.5s',
       },
