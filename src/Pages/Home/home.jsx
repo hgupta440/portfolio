@@ -39,6 +39,7 @@ const Home = () => {
       </div>
       <div>
 
+      <div className="mx-50">
         <section className="py-20 px-4 max-w-7xl mx-auto grid grid-cols-2 gap-12">
           <div>
             <h2 className="text-4xl font-bold mb-4 animate-slideInLeft">Know More About me</h2>
@@ -101,6 +102,7 @@ const Home = () => {
       </div>
       <div>
         <Testimonial />
+      </div>
       </div>
     </div>
   );

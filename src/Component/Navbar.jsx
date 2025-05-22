@@ -1,28 +1,34 @@
+import { path } from 'framer-motion/client';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
-  return (
-    <header className="max-h-fit sticky top-0 left-0 right-0 z-50 bg-[#ffe0b2]">
-      <div className="flex justify-between items-center px-6 py-6 max-w-7xl mx-auto">
-        <Link to="/" className="text-3xl font-bold text-black">
-          Himanshu
-        </Link>
+  const location = useLocation();
 
-        <nav className="hidden md:flex space-x-8 text-sm font-medium">
-          <Link to="/" className="hover:underline">Home</Link>
-          <Link to="/service" className="hover:underline">Services</Link>
+  const getLinkClass = (path) => location.pathname === path ? 'text-[#ff6f00]' : 'hover:text-[#ff6f00]';
+
+
+  return (
+    <header className="fixed w-[100%] z-50 bg-[#ffe0b2] font-rubik">
+      <div className="flex justify-between items-center px-6 py-4 mx-44">
+        <p className="text-[38px] font-semibold text-black">
+          Adama
+        </p>
+
+        <nav className="hidden md:flex space-x-8 text-sm">
+          <Link to="/" className={getLinkClass('/')}>Home</Link>
+          <Link to="/service" className={getLinkClass('/service')}>Services</Link>
           <div className="relative group cursor-pointer">
             <div className="flex items-center hover:underline">
               Pages <span className="ml-1">+</span>
             </div>
-            <div className="absolute hidden group-hover:block bg-white mt-2 rounded shadow-md">
-              <Link to="/about" className="block px-4 py-2 hover:bg-gray-100">About</Link>
-              <Link to="/resume" className="block px-4 py-2 hover:bg-gray-100">Resume</Link>
+            <div className="absolute hidden group-hover:block rounded shadow-lg bg-[#ffe0b2]">
+              <Link to="/about" className={`block px-7 pt-4 ${getLinkClass('/about')}`}>About</Link>
+              <Link to="/resume" className={`block px-7 py-4 ${getLinkClass('/resume')}`}>Resume</Link>
             </div>
           </div>
-          <Link to="/projects" className="hover:underline">Projects</Link>
-          <Link to="/contact" className="hover:underline">Contact Us</Link>
+          <Link to="/projects" className={getLinkClass('/projects')}>Projects</Link>
+          <Link to="/contact" className={getLinkClass('/contact')}>Contact Us</Link>
         </nav>
       </div>
     </header>

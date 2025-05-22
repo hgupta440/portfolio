@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        rubik: ['Rubik', 'sans-serif'],
+      },
       keyframes: {
         slideInLeft: {
           '0%': {transform: 'translateX(-100%)', opacity: '0'},
