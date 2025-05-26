@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        rubik: ['Rubik', 'sans-serif'],
+        rubik: ['Rubik', 'Sans-serif'],
       },
       keyframes: {
         slideInLeft: {
