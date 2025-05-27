@@ -31,5 +31,13 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      addUtilities({
+        '.clip-bottom-skew': {
+          'clip-path': 'polygon(0 0, 100% 0, 100% 75%, 0% 89%)',
+        },
+      });
+    },
+  ],
 }

@@ -23,8 +23,8 @@ const serviceinfo = [
 const servicecard = () => {
   return (
     <section className="min-h-screen py-20 px-4 max-w-7xl mx-auto">
-      <h2 className="text-4xl font-bold mb-4 animate-slideInLeft">Best Services</h2>
-      <p className="text-gray-600 mb-10 max-w-xl animate-slideInUp">
+      <h2 className="text-4xl font-bold mb-4 animate-slideInLeft">Services</h2>
+      <p className="text-gray-600 mb-10 max-w-xl animate-slideInUp w-[30%]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis leo.
       </p>
 
