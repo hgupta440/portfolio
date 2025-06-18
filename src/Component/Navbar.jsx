@@ -14,7 +14,7 @@ const Navbar = () => {
     <header className="fixed w-[100%] z-50 bg-[#ffe0b2] font-rubik">
       <div className="flex justify-between items-center px-6 py-4 mx-44">
         <p className="text-[38px] font-semibold text-black">
-          Adama
+          Hitesh Gupta
         </p>
 
         <nav className="hidden md:flex space-x-8 text-sm">
