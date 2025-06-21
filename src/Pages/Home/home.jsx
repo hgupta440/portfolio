@@ -18,14 +18,11 @@ const Home = () => {
               Hitesh Gupta
             </h1>
             <h2 className="text-2xl text-gray-700 font-medium animate-slideInLeftDelay300">
-              Web Developer & API Specialist
+              Full Stack Developer
             </h2>
             <p className="text-gray-600 max-w-md animate-slideInUp">
-              I build powerful websites and scalable APIs using Laravel, CodeIgniter, PHP, HTML, CSS, JS, and React.
+              I build powerful Web Applications using React, Angular, Vue, Laravel, CodeIgniter and more.
             </p>
-            <button className="mt-4 bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600 transition duration-300">
-              Download Resume
-            </button>
           </div>
 
           {/* Right Image */}
