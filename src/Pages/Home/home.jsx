@@ -56,7 +56,9 @@ const Home = () => {
               ['PHP / Laravel / CodeIgniter', 95],
               ['HTML / CSS / JS / React', 90],
               ['RESTful API Development', 85],
-              ['WordPress / CMS', 80]
+              ['WordPress / CMS', 80],
+              ['Mobile App Angular', 80],
+              ['Vue With React', 80]
             ].map(([skill, percent], idx) => (
               <div key={idx}>
                 <div className="flex justify-between mb-1 text-sm font-medium text-gray-700">
