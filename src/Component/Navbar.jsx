@@ -17,7 +17,7 @@ const Navbar = () => {
           Hitesh Gupta
         </p>
 
-        <nav className="hidden md:flex space-x-8 text-sm">
+        {/* <nav className="hidden md:flex space-x-8 text-sm">
           <Link to="/" className={getLinkClass('/')}>Home</Link>
           <Link to="/service" className={getLinkClass('/service')}>Services</Link>
           <div className="relative group cursor-pointer">
@@ -31,7 +31,7 @@ const Navbar = () => {
           </div>
           <Link to="/projects" className={getLinkClass('/projects')}>Projects</Link>
           <Link to="/contact" className={getLinkClass('/contact')}>Contact us</Link>
-        </nav>
+        </nav> */}
       </div>
     </header>
   );
