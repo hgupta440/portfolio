@@ -3,19 +3,19 @@ import { FaQuoteLeft } from 'react-icons/fa';
 
 const testimonials = [
   {
-    name: 'Ravi Sharma',
+    name: 'Arpan Adhikari',
     role: 'Business Owner',
-    text: 'Hitesh developed a custom e-commerce site for my store with advanced inventory management. The result was flawless and delivered on time.'
+    text: "I worked with Hitesh a few years back building a containerised php application in Laravel and Lumen framework. He's a quick learner and will take time to learn a new skill/technology for the benefit of the peojwct. He showed a lot of passion and enthusiasm to the projeand brought his expertise in Laravel and Lumen to our team. Moreover , he's trustworthy and dependable. During our work together, I also found him very collaborative and open to feedback and sudden changes to project scope."
   },
   {
-    name: 'Ray Zimkus',
+    name: 'Ramunas Zimkus',
     role: 'Marketing Head, WebCorp',
-    text: 'Working with Hitesh was a pleasure. He handled both frontend and backend tasks efficiently and communicated every step clearly.'
+    text: "I have been work with Hitesh more than 3 years. He is amazing web developer. Great communication, always available 24/7. My project is done as he promised, even goes extra mile. He's developing skills outstanding ! I will continue to work with him. Thank you."
   },
   {
-    name: 'Suresh Patel',
+    name: 'Duane Cardwell',
     role: 'Startup Founder',
-    text: 'We needed scalable APIs for our mobile app. Hitesh built everything in Laravel quickly and exactly as we needed. Highly recommended!'
+    text: "Hitesh provided critical troubleshooting and code fixes for an online payment gateway. He was responsive and easy to communicate with. He implemented special requests for features, and conducted himself professionally through varied unforeseen challenges. I would highly recommend him."
   }
 ];
 
